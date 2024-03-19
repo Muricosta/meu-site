@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommy Shoes - Catálogo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .setores {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .setor {
+            width: 150px;
+            margin: 10px;
+            padding: 20px;
+            background-color: #007bff;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .setor:hover {
+            background-color: #000000;
+        }
+        .setor img {
+            width: 200px;
+            height: auto;
+        }
+        .setor h2 {
+            color: #fff;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Tommy Shoes - Catálogo</h1>
+    
+    <div class="setores">
+        <div class="setor" onclick="location.href='Tenis-de-corrida.html';">
+            <img src="file:///D:/tenis/corrida/tenis%201/IMG_20230922_141149426.jpg" alt="Tênis de Corrida">
+            <h2>Tênis de Corrida</h2>
+        </div>
+        <div class="setor" onclick="location.href='Tenis-Basquete.html';">
+            <img src="file:///D:/tenis/basquete/tenis%209/IMG_20230923_004806754.jpg" alt="Camisetas Esportivas">
+            <h2>Basquete</h2>
+        </div>
+        <!-- Adicione mais setores conforme necessário -->
+    </div>
+</div>
+
+</body>
+</html>
